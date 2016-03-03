@@ -40,3 +40,26 @@ It might even be possible to predict what they will do next.
 [graph.json](graph.json) contains a first try at what such a graph could look like.
 
 Defining a good representation can be done before writing the tasks, or after, when it's clearer how users can use the graph, or how it can be made easier to write the tasks.
+
+## Related work
+
+### Discussions
+
+* A github issue on the minecraft bot framework mineflayer [#275](https://github.com/PrismarineJS/mineflayer/issues/275) about combining tasks
+
+### Smart bots
+
+* [rbot](https://github.com/rom1504/rbot) a node.js bot with a domain specific language to define tasks
+* [bat](https://github.com/Gjum/Bat) a python bot, with a curse interface with some smart commands
+* [minebot](https://github.com/michaelzangl/minebot/wiki) a bot based on plugging itself on the vanilla client, which already handle some high level tasks
+* lot of other bots : this list should be completed
+
+### Research projects
+
+* The AGI framework opencog is working on some high level minecraft bot : [Minecraft_Bot_Development_Roadmap](http://wiki.opencog.org/wikihome/index.php/Minecraft_Bot_Development_Roadmap) 
+
+### Task graphs/networks
+
+Lot of work has been done in task planning and it should be explored to
+ see what can be done, see for example [Automated_planning_and_scheduling](https://en.wikipedia.org/wiki/Automated_planning_and_scheduling)
+
