@@ -17,6 +17,32 @@ Handle the complexity of minecraft.
 * task genericity
 * task cost
 
+## Technical representation
+
+[graph.json](graph.json) contains a first try at what such a graph could look like.
+
+Defining a good representation can be done before writing the tasks, or after, when it's clearer how users can use the graph, or how it can be made easier to write the tasks.
+
+## Strategy
+
+This project is pretty difficult, so instead of trying to define everything from schema to data to tools head on, I think it makes sense to start at it from all the different levels, and eventually form something coherent.
+
+Axes:
+
+### Defining a graph format
+
+How should the edge and vertexes be defined.
+
+### Write the data
+
+Is it easy to write the data manually ? Should it be automated ? Can be it linked to already existing [data](github.com/PrismarineJS/minecraft-data)
+
+### Use the data
+
+Start building applications that use the data, even if the data doesn't exist. That will require to build some basic example for the application to work.
+
+For example create a recipe combiner application, and try to learn from this.
+
 ## Use cases
 
 ### Bots
@@ -34,12 +60,6 @@ What do players do on a minecraft server ?
 
 An interesting thing to do would be logging players action, and seeing if what they do look like some of the tasks in the task graph.
 It might even be possible to predict what they will do next.
-
-## Technical representation
-
-[graph.json](graph.json) contains a first try at what such a graph could look like.
-
-Defining a good representation can be done before writing the tasks, or after, when it's clearer how users can use the graph, or how it can be made easier to write the tasks.
 
 ## Related work
 
