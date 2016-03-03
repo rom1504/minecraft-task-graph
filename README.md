@@ -39,4 +39,4 @@ It might even be possible to predict what they will do next.
 
 [graph.json](graph.json) contains a first try at what such a graph could look like.
 
-Defining a good representation can be done before writing the tasks, or after, when it's clearer how users can use the graph, or how it can be easier to write the tasks.
+Defining a good representation can be done before writing the tasks, or after, when it's clearer how users can use the graph, or how it can be made easier to write the tasks.
