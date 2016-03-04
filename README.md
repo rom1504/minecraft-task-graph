@@ -65,7 +65,7 @@ It might even be possible to predict what they will do next.
 
 ### Task path finder
 
-* [minecraft-crafter](https://github.com/rom1504/minecraft-crafter) finds a recipe path to get any item
+* [minecraft-crafter](https://github.com/rom1504/minecraft-crafter) finds a recipe path to get any item, demo : [web-minecraft-crafter](http://rom1504.github.io/web-minecraft-crafter/)
 
 ### Discussions
 
