@@ -63,6 +63,10 @@ It might even be possible to predict what they will do next.
 
 ## Related work
 
+### Task path finder
+
+* [minecraft-crafter](https://github.com/rom1504/minecraft-crafter) finds a recipe path to get any item
+
 ### Discussions
 
 * A github issue on the minecraft bot framework mineflayer [#275](https://github.com/PrismarineJS/mineflayer/issues/275) about combining tasks
